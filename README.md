@@ -11,7 +11,8 @@ are given to you.
 The key points of the first assignment are:
  - Utilize the dataloading abstractions of PyTorch,
     namely [torch.utils.data.Dataset](http://pytorch.org/docs/master/data.html#torch.utils.data.Dataset)
-    and [torch.utils.data.DataLoader](http://pytorch.org/docs/master/data.html#torch.utils.data.DataLoader)
+    and [torch.utils.data.DataLoader](http://pytorch.org/docs/master/data.html#torch.utils.data.DataLoader).
+    Don't use torchtext. 
  - Initialize the embedding layer of your model with pretrained word embeddings.
  I recommend using [Glove's 50 dimensional vectors](http://nlp.stanford.edu/data/glove.twitter.27B.zip) ,
  as the performance of the model is irrelevant and using low-dimensional embeddings will speed things up.

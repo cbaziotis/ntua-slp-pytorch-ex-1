@@ -1,0 +1,19 @@
+# Created by .ignore support plugin (hsz.mobi)
+
+embeddings/*.p
+embeddings/*.txt
+/proto/*
+!/proto/
+/proto/
+.idea/dictionaries/
+.idea/inspectionProfiles/
+.idea/misc.xml
+.idea/modules.xml
+.idea/nlp-deep-learning-tutorial.iml
+.idea/other.xml
+.idea/workspace.xml
+__pycache__/
+keras_models/__pycache__/__init__.cpython-36.pyc
+keras_models/__pycache__/layers.cpython-36.pyc
+keras_models/__pycache__/models.cpython-36.pyc
+pytorch_models/__pycache__/

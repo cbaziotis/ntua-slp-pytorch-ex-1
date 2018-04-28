@@ -34,24 +34,20 @@ class SentenceDataset(Dataset):
         Returns:
             (tuple):
                 * example (ndarray): vector representation of a training example
-                * label (string): the class label
+                * label (int): the class label
                 * length (int): the length (tokens) of the sentence
 
         Examples:
             For an `index` where:
             ::
-                self.data[index] = ['super', 'eagles', 'coach', 'sunday', 'oliseh',
-                                    'meets', 'with', 'chelsea', "'", 's', 'victor',
-                                    'moses', 'in', 'london', '<url>']
+                self.data[index] = ['this', 'is', 'really', 'simple']
                 self.target[index] = "neutral"
 
             the function will have to return return:
             ::
-                example = [  533  3908  1387   649 38127  4118    40  1876    63   106  7959 11520
-                            22   888     7     0     0     0     0     0     0     0     0     0
-                             0     0     0     0     0     0     0     0     0     0     0     0
-                             0     0     0     0     0     0     0     0     0     0     0     0
-                             0     0]
+                example = [  533  3908  1387   649   0     0     0     0
+                             0     0     0     0     0     0     0     0
+                             0     0     0     0     0     0     0     0]
                 label = 1
         """
         pass
